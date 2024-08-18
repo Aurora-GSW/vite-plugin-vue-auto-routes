@@ -7,7 +7,7 @@
   "jsnext:main": "lib/index.esm.js",
   "browser": "lib/index.umd.js",
   "types": "lib/index.d.ts",
-  "type": "module",
+  "type": "commonjs",
   "files": [
     "lib",
     "README.md"
