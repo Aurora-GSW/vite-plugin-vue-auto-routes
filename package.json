@@ -1,0 +1,38 @@
+{
+  "name": "vite-plugin-vue-auto-routes",
+  "version": "0.1.0",
+  "description": "vite plugin for automatic generation of routing configurations",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "jsnext:main": "lib/index.esm.js",
+  "browser": "lib/index.umd.js",
+  "types": "lib/index.d.ts",
+  "type": "module",
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Aurora-GSW/vite-plugin-vue-auto-routes.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config rollup.config.js"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "vue",
+    "vue-router"
+  ],
+  "author": "gongshiwei",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.18.1",
+    "tslib": "^2.6.3"
+  }
+}
